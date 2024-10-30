@@ -28,6 +28,9 @@
 #include "StartEndPoseDetector.hpp"
 // For retargeting function from the skeleton joint angles to the robot motor joint angles.
 #include "jointRetargeting.hpp"
+//-----------For dds---------------------
+// #include <unitree/idl/go2/LowCmd_.hpp>
+// #include <unitree/robot/channel/channel_publisher.hpp>
 
 using namespace std::chrono;
 
